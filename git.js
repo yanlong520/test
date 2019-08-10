@@ -20,5 +20,11 @@ git branch -d 分支名A //删除分支A
 git remote add origin 远端仓库地址 //链接到远端的GitHub仓库，此过程之前需要把传递文件提交到本地仓库中，git commit -m '';
 git push -u origin master //提交到远程仓库中（第一次提交的时候这么操作，之后的额操作直接用 git push）
 git pull //把远端的文件拉取到本地 
+4.github远端管理
+git push --set-upstream origin 分支名 A  //创建远端分支关联（在此之前一定在在本地端创建分支A）
+git push origin --delete 分支名A //删除远端分支A
+5.clone到本地
+//先在项目的clone or download 选项找到仓库地址，然后
+git clone 仓库地址  //把项目克隆到本地
 
 */

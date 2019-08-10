@@ -16,5 +16,9 @@ git branch //查看当前在哪个分支上，在A分支上创建并提交文件
 //比如要把分支 B 的文件提交到分支 A 上，则需要先切换当前分支为 A 分支，然后再执行git merge B 命令
 git merge 分支名A //把A上提交的文件合并到主分支上
 git branch -d 分支名A //删除分支A
+3.上传GitHub
+git remote add origin 远端仓库地址 //链接到远端的GitHub仓库，此过程之前需要把传递文件提交到本地仓库中，git commit -m '';
+git push -u origin master //提交到远程仓库中（第一次提交的时候这么操作，之后的额操作直接用 git push）
+git pull //把远端的文件拉取到本地 
 
 */
